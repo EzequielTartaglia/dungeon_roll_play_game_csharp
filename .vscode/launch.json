@@ -1,0 +1,33 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Sandbox Project",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-sandbox-Sandbox",
+            "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net7.0/Sandbox.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sandbox/Sandbox",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Final Project (Open ended)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-final-rollPlayGame",
+            "program": "${workspaceFolder}/final/rollPlayGame/bin/Debug/net7.0/rollPlayGame.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/final/rollPlayGame",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+    ]
+}
