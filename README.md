@@ -6,7 +6,7 @@ This project is a role-playing game (RPG) developed in C#. The goal of this soft
 
 Through this project, I aimed to deepen my understanding of C# syntax and game development concepts. The implementation showcases the use of constructors, method overriding, and object interactions in a structured and maintainable manner.
 
-[Software Demo Video](https://youtu.be/Q3q7AvzV50I)
+[Software Demo Video](https://youtu.be/bBIiYf2_Uyk)
 
 ## Class Structure
 
